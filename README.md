@@ -19,5 +19,14 @@ angular
     #Usage
     
     <!--speed is interval time in ms-->
+    
+    message to type can come from $scope binding, like so:
+    
     <typewriter inputter="{{input.message}}" speed="200"></typewriter>
-    <div typewriter inputter="{{input.message}}" speed="200"></div>
+    
+    
+    
+    or, can specifiy string right in the directive:
+    
+    <typewriter inputter="'Please type this message one letter at a time'" speed="200"></typewriter>
+    
